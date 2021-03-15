@@ -1,5 +1,13 @@
 # nhentai-api-js
 
+> This package is deprecated and no longer maintained, please use [nhentai-js](https://www.npmjs.com/package/nhentai-js) instead.
+
+**This is an unofficial API.**
+
+It was developed because [official API has been suspended indefinitely](https://twitter.com/fuckmaou/status/1084550608097603585).
+
+But now you don't need it anymore, [official API is re-enabled](https://twitter.com/fuckmaou/status/1113868849500303363).
+
 ## Example
 
 ```javascript
@@ -95,17 +103,19 @@ There are what you will get (formatted):
 
 ### (4) Cover `string`
 
-```
+```text
 https://t.nhentai.net/galleries/1367250/cover.png
 ```
 
 ### (5) Cover thumbnail `string`
 
-```
+```text
 https://t.nhentai.net/galleries/1367250/thumb.png
 ```
 
 ### (6) Search
+
+\* Some old doujin may have no `thumbnail.w` and `thumbnail.h`
 
 ```javascript
 {
